@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(97, 76, 55, 0.4), rgba(51, 93, 100, 0.8)), url(image/FourSeasons.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+    background-color: rgba(11, 94, 133, 0.7);
+}
+.text{
+    transform: translateY(130%);
+}
+.Accomodation img{
+    width: 350px;
+    height: 250px;
+}
+.Accomodation img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.ckdh254-hh{
+    background-image: linear-gradient(rgba(16, 13, 26, 0.9),rgba(16, 13, 26, 0.9) ),url(image/La\ semaine\ .jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;  
+}
+.hgfhgk{
+    background-color: rgba(148, 160, 161, 0.3);
+}
